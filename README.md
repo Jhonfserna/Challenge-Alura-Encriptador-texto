@@ -1,2 +1,3 @@
 # Challenge-Alura-Encriptador-texto
-Encriptador de texto Challenge de Alura. Jhon Fredy Serna
+Encriptador de texto (Responsivo para tabletas y móviles).
+Autor: Jhon Fredy Serna
