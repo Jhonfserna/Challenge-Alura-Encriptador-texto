@@ -109,33 +109,33 @@ main{
     }
     
     main {
-      flex-direction: column; /* Cambia la dirección del flex a columna para apilar los elementos */
-      margin-left: 20px; /* Ajusta los márgenes para tablets */
+      flex-direction: column; 
+      margin-left: 20px; 
     }
   
     .text-area, .mensaje {
-      width: 100%; /* Ajusta el ancho de los textareas para que ocupen todo el ancho disponible */
-      margin-left: 0; /* Remueve el margen izquierdo */
+      width: 100%; 
+      margin-left: 0; 
     }
   
     .botones {
-      flex-direction: column; /* Apila los botones verticalmente */
+      flex-direction: column; 
     }
   
     .btn-encriptar, .btn-desencriptar, .copiar {
-      width: 90%; /* Ajusta el ancho de los botones para tablets */
-      margin-top: 20px; /* Ajusta el margen superior */
-      margin-left: auto; /* Centra los botones horizontalmente */
-      margin-right: auto; /* Centra los botones horizontalmente */
+      width: 90%; 
+      margin-top: 20px; 
+      margin-left: auto; 
+      margin-right: auto; 
     }
     
     .mensaje {
-      position: static; /* Cambia la posición a estática para que fluya con el documento */
+      position: static; 
     }
     
     .copiar {
-      position: static; /* Cambia la posición a estática para que fluya con el documento */
-      margin-top: 20px; /* Ajusta el margen superior */
+      position: static;
+      margin-top: 20px;
     }
   }
 
@@ -143,42 +143,42 @@ main{
 
 @media only screen and (max-width: 600px) {
     .logo {
-      width: 5%; /* Ajusta el tamaño del logo para dispositivos móviles */
-      margin-left: auto; /* Centra el logo horizontalmente */
-      margin-right: auto; /* Centra el logo horizontalmente */
+      width: 5%; 
+      margin-left: auto; 
+      margin-right: auto; 
     }
     
     main {
-      flex-direction: column; /* Cambia la dirección del flex a columna para apilar los elementos */
-      margin: 0 10px; /* Ajusta los márgenes para dispositivos móviles */
+      flex-direction: column; 
+      margin: 0 10px; 
     }
   
     .text-area, .mensaje {
-      width: calc(100% - 20px); /* Ajusta el ancho de los textareas para que ocupen todo el ancho disponible menos los márgenes */
-      margin-top: 15px; /* Ajusta el margen superior */
-      margin-left: 0; /* Remueve el margen izquierdo */
-      position: relative; /* Cambia la posición a relativa para que fluya con el documento */
+      width: calc(100% - 20px); 
+      margin-top: 15px; 
+      margin-left: 0; 
+      position: relative; 
     }
   
     .botones {
-      flex-direction: column; /* Apila los botones verticalmente */
+      flex-direction: column;
     }
   
     .btn-encriptar, .btn-desencriptar, .copiar {
-      width: calc(100% - 20px); /* Ajusta el ancho de los botones para dispositivos móviles */
-      margin-top: 15px; /* Ajusta el margen superior */
-      margin-left: 0; /* Remueve el margen izquierdo */
-      margin-right: 0; /* Remueve el margen derecho */
+      width: calc(100% - 20px); 
+      margin-top: 15px; 
+      margin-left: 0; 
+      margin-right: 0; 
     }
     
     .mensaje {
-      position: relative; /* Cambia la posición a relativa para que fluya con el documento */
-      background-size: cover; /* Ajusta el tamaño del fondo para que cubra completamente el área */
+      position: relative;
+      background-size: cover; 
     }
     
     .copiar {
-      position: relative; /* Cambia la posición a relativa para que fluya con el documento */
-      margin-top: 15px; /* Ajusta el margen superior */
+      position: relative; 
+      margin-top: 15px; 
     }
   }
 
